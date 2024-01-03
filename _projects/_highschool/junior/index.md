@@ -1,4 +1,4 @@
 ---
 layout: default
-name: "Junior Projects"
+title: "Junior Projects"
 ---

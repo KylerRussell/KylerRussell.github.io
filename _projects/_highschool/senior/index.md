@@ -1,4 +1,4 @@
 ---
 layout: default
-name: "Senior Projects"
+title: "Senior Projects"
 ---

@@ -101,6 +101,4 @@ exclude:
 collections:
   projects:
     output: true
-  highschool: 
-    output: true
 

@@ -1,4 +1,4 @@
 ---
 layout: default
-name: "Sophmore Projects"
+title: "Sophmore Projects"
 ---

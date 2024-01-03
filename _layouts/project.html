@@ -18,7 +18,7 @@ layout: compress
             <div class="container has-text-centered">
                 {{ site.projects.highschool | inspect }}
                 {% for year_folder in site.projects.highschool %}
-                    {% assign year = year_folder.name %}
+                    {% assign year = year_folder.title %}
                     <div class="section">
                         <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ year }}</p>
                     </div>

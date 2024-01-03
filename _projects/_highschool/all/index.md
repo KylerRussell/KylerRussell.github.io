@@ -1,4 +1,4 @@
 ---
 layout: default
-name: "All Projects"
+title: "All Projects"
 ---
