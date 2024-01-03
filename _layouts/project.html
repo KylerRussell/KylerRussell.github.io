@@ -19,9 +19,11 @@ layout: compress
                 
                 {% for year in site.projects.highschool %}
                     <div class="section">
-                        <p class="subtitle is-uppercase has-text-weight-medium has-text-grey"> <%= year %> Projects</p>
+                        <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ year.label }} Projects</p>
                     </div>
-                    {% include project-card.html %}
+                    {% for project in year.data %}
+                        {% include project-card.html %}
+                    {% endfor %}
                 {% endfor %}
                 
                 <div class="section">
