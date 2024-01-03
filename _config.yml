@@ -96,3 +96,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Scope Fixes?
+collections:
+  highschool:
+    output: true
