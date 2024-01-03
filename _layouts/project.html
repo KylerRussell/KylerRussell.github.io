@@ -15,15 +15,15 @@ layout: compress
     <!--Main Section-->
     <section class="hero is-fullheight" id="project">
         <div class="hero-body">
-            <div class="container has-text-centered">
-                {{ site.highschool | inspect }}
-                {% for year_folder in site.highschool %}
-                    {% assign year = year_folder.name %}
-                    {% if year_folder.isIndex %}
+            <div class="container has-text-centered">                
+                {% for file in site.highschool %}
+                    {% if file.isIndex %}
+                        {% assign year = file.name %}
                         <div class="section">
                             <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ year }}</p>
                         </div>
                         {% include project-card.html %}
+                        {{site.highschool | inspect}}  
                     {% endif %}
                 {% endfor %}
             </div>
