@@ -1,4 +1,4 @@
 ---
 title: Pinhole Camera
-layout: project
+layout: page
 ---

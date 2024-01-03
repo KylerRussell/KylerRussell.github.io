@@ -84,6 +84,13 @@ defaults:
     values:
       layout: page
 
+# Scope Fixes?
+collections:
+  highschool:
+    output: true
+    sort_by: order
+
+
 # Exclude
 exclude:
   - .sass-cache/
@@ -97,8 +104,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Scope Fixes?
-collections:
-  projects:
-    output: true
+
 
