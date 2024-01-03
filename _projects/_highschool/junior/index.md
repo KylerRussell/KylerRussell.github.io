@@ -1,4 +1,4 @@
 ---
-layout: year
+layout: default
 name: "Junior Projects"
 ---

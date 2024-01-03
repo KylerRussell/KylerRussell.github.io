@@ -99,5 +99,8 @@ exclude:
 
 # Scope Fixes?
 collections:
-  highschool:
+  projects:
     output: true
+  highschool: 
+    output: true
+
