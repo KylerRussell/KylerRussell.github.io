@@ -19,7 +19,7 @@ layout: compress
                 
                 {% for year in site.projects.highschool %}
                     <div class="section">
-                        <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ year.label }} Projects</p>
+                        <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ year.label|capitalize }} Projects</p>
                     </div>
                     {% for project in year.data %}
                         {% include project-card.html %}
