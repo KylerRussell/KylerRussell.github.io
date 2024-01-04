@@ -86,7 +86,7 @@ defaults:
 
 # Scope Fixes?
 collections:
-  highschool:
+  projects:
     output: true
     sort_by: order
 

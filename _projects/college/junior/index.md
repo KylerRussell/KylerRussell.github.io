@@ -4,6 +4,7 @@ name: "Junior Projects"
 isIndex: true
 order: 3
 location: junior
+title: "Junior Projects"
 ---
 # Welcome to all the projects I did in my Junior year
 

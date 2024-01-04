@@ -4,6 +4,7 @@ name: "Freshman Projects"
 isIndex: true
 order: 1
 location: freshman
+title: "Freshman Projects"
 ---
 # Welcome to all the projects I did in my Freshman year
 

@@ -4,6 +4,7 @@ name: "All Projects"
 isIndex: true
 order: 5
 location: all
+title: "All Projects"
 ---
 # Welcome to all the projects I did in highschool
 

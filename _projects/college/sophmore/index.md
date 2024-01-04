@@ -4,6 +4,7 @@ name: "Sophmore Projects"
 isIndex: true
 order: 2
 location: sophmore
+title: "Sophmore Projects"
 ---
 # Welcome to all the projects I did in my Sophmore year
 

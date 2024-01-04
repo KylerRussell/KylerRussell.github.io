@@ -4,6 +4,7 @@ name: "Senior Projects"
 isIndex: true
 order: 4
 location: senior
+title: "Senior Projects"
 ---
 # Welcome to all the projects I did in my Senior year
 
