@@ -3,6 +3,7 @@ layout: page
 name: "Junior Projects"
 isIndex: true
 order: 3
+location: /highschool/junior
 ---
 # Welcome to all the projects I did in my Junior year
 
