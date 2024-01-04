@@ -3,7 +3,7 @@ layout: page
 name: "Sophmore Projects"
 isIndex: true
 order: 2
-location: /highschool/sophmore
+location: sophmore
 ---
 # Welcome to all the projects I did in my Sophmore year
 

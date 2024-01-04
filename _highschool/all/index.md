@@ -3,7 +3,7 @@ layout: page
 name: "All Projects"
 isIndex: true
 order: 5
-location: /highschool/all
+location: all
 ---
 # Welcome to all the projects I did in highschool
 

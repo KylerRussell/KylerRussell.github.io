@@ -3,7 +3,7 @@ layout: page
 name: "Senior Projects"
 isIndex: true
 order: 4
-location: /highschool/senior
+location: senior
 ---
 # Welcome to all the projects I did in my Senior year
 

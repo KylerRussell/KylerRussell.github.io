@@ -1,7 +1,7 @@
-<div class="columns is-centered is-multiline is-mobile">
-  {{ grade.name|inspect }}
-  {{ [grade.location, '/projects.yml']|join }}
-  {% for project in site.highschool.freshman.projects %}
+<div class="columns is-centered is-multiline is-mobile">  
+  {% assign location_string = grade.location %}
+  {% assign location = "site.data" + location_string + ".projects"%}
+  {% for project in location %}
     <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
       id="project-card">
       <a href="{{project.link}}" target="_blank">
